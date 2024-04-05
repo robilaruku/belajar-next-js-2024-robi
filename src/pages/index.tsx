@@ -1,11 +1,9 @@
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
     <>
-      <div>hello world</div>
+      <div>
+        <div>hello world</div>
+      </div>
     </>
   );
 }
